@@ -1,7 +1,9 @@
 import java.util.Locale;
 import java.util.Scanner;
 
-import javax.print.DocFlavor.STRING;
+/**Este código é uma interface de um banco onde solicita 
+ * dados do cliente e consequentemente abre uma nova conta para o mesmo .
+ */
 
 
 
@@ -29,7 +31,7 @@ public class ContaBanco {
 
         //Exibição do da mensagem com os dados do cliente
          System.out.println("********************************************************************************************************************************************************");
-         System.out.println("Olá"+ nome + " "+sobrenome+"!");
+         System.out.println("Ola "+ nome + " "+sobrenome+"!");
          System.out.println(" Obrigado por criar uma conta em nosso banco, sua agência é "+agencia+","+" conta "+ conta +" e seu saldo "+"R$ "+ saldo +" já está disponível para saque.");
          System.out.println("********************************************************************************************************************************************************");
     }
