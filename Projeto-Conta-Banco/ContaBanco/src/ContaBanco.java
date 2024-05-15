@@ -12,6 +12,9 @@ public class ContaBanco {
         java.util.Scanner scanner = new Scanner (System.in).useLocale(Locale.US);
 
         //solicitação dos dados pessoais
+        System.out.println("******************************************************************************************************************************************************");
+        System.out.println("                                                      SEJA BEM VINDO AO BANCO DIO!");
+        System.out.println("******************************************************************************************************************************************************");
         System.out.println("Por favor,Digite seu nome: ");
         String nome = scanner.next();
 
@@ -30,9 +33,9 @@ public class ContaBanco {
         
 
         //Exibição do da mensagem com os dados do cliente
-         System.out.println("********************************************************************************************************************************************************");
-         System.out.println("Ola "+ nome + " "+sobrenome+"!");
+         System.out.println("******************************************************************************************************************************************************");
+         System.out.println("Olá "+ nome + " "+sobrenome+"!");
          System.out.println(" Obrigado por criar uma conta em nosso banco, sua agência é "+agencia+","+" conta "+ conta +" e seu saldo "+"R$ "+ saldo +" já está disponível para saque.");
-         System.out.println("********************************************************************************************************************************************************");
+         System.out.println("******************************************************************************************************************************************************");
     }
 }
